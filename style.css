@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.card-css{
+    height: 25vmax;
+    width: 20vmax;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.author{
+    background-color: darkorange;
+    width: 20%;
+    transition: 0.25s;   
+}
+
+.author::placeholder{
+    color: rgb(0, 0, 0)  !important;
+}
+
+.author:focus{
+    background-color: rgb(254, 214, 164);
+    width: 100%;
+}
